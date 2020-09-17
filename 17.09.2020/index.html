@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/92b1e9fc18.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="registration">
+        <div class="container">
+            <div class="row">
+                <div class="registration col-lg-12">
+                    <div class="header-text">
+                        <span>Registration</span>
+                    </div>
+                        <form id="my_form">
+                            <span> Acoount details</span>
+                           <div class="form-accounts">
+                            <div class="form-account1">
+                                <label for="email">Email*</label>
+                                <input type="email" name="email" id="email">
+                                <label for="repemail">Repeat Email*</label>
+                                <input type="email" name="repemail" id="repemail">
+                            </div>
+                            <div class="form-account2">
+                                    <label for="pass">Password*</label>
+                                    <input type="password" name="pass" id="pass">
+                                <label for="reppass">Repeat Password*</label>
+                                <input type="password" name="reppass" id="reppass">
+                            </div>
+                           </div>
+                        </form>
+
+                </div>
+                <div class="personal_further col-lg-12">
+                    <div class="personal col-lg-6">
+                        <span>Personal Details</span>
+                       <div class="name">
+                            <label for="name">Name*</label>
+                        <input type="text" name="txt" id="name">
+                       </div>
+                       <div class="phone">
+                            <label for="phone">Phone*</label>
+                        <input type="text" name="num" id="phone">
+
+                       </div>
+                       <div class="street">
+                            <label for="street">Street</label>
+                        <input type="text" name="text" id="street">
+                       </div>
+                        <div class="city">
+                                <label for="city">City*</label>
+                                <input type="text" name="text" id="city">
+                        </div>
+                       <div class="countries">
+                            <label for="countries">Country*</label>
+                        <select name="countries" id="countries">
+                            <option value="AZE">Azerbaijan</option>
+                            <option value="TUR">Turkey</option>
+                            <option value="ENG">English</option>
+                            <option value="RUS">Russian</option>
+                            <option value="CAN">Canada</option>
+                        </select>
+                       </div>
+                        <div class="website">
+                                <label for="web">Website</label>
+                                <input type="text" name="web" id="web">
+                        </div>
+                    </div> 
+                    <div class="further col-lg-6">
+                        <span>Further Information</span>
+                        <div class="gender">
+                                <label for="male">Gender*</label>
+                                <input type="radio" name="male" id="male">Male
+                                <input type="radio" name="female" id="female">Female
+                        </div>
+                        <div class="nationality">
+                                <label for="nationality">Nationality*</label>
+                                <select name="nationality" id="nationality">
+                                    <option value="AZE">Azerbaijan</option>
+                                    <option value="TUR">Turkey</option>
+                                    <option value="ENG">English</option>
+                                    <option value="RUS">Russian</option>
+                                    <option value="CAN">Canada</option>
+                                </select>
+                        </div>
+                        <div class="children">
+                                <label for="check">Children*</label>
+                                <input type="checkbox" name="check" id="check">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <span>Terms and Mafing</span>
+                    <input type="checkbox" name="accept" id="accept">I accept the Terms and Condeions
+                </div>
+                <div class="button_register">
+                    <input type="submit" name="button" id="button">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

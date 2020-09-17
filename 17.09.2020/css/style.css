@@ -1,0 +1,9 @@
+#registration .personal_further{
+display: flex;
+}
+#registration .personal_further .personal{
+padding: 20px;
+}
+#registration .personal_further .further{
+padding: 20px;
+}
