@@ -1,0 +1,85 @@
+#meals_app {
+  background-image: url(../images/image5.jfif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#meals_app .navigation {
+  background-color: #d7e7fac2;
+  -webkit-box-shadow: 0px -3px 12px white;
+          box-shadow: 0px -3px 12px white;
+}
+
+#meals_app .navigation .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#meals_app .navigation .nav-links .eat-logo a {
+  padding: 0px;
+}
+
+#meals_app .navigation .nav-links .eat-logo a img {
+  width: 120px;
+}
+
+#meals_app .navigation .nav-links .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+#meals_app .navigation .nav-links .nav-link a {
+  text-decoration: none;
+  color: #1f2a5f;
+  background-color: white;
+  padding: 17px 13px 10px 13px;
+  width: 100px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#meals_app .navigation .nav-links .nav-link .mybutton {
+  padding: 17px 13px 10px 13px;
+  margin: 0px 25px;
+  background-color: #980d3acc;
+  color: white;
+}
+
+#meals_app .input-group {
+  padding: 200px 0px;
+}
+
+#meals_app .myprop .col-md-4 {
+  text-align: left;
+  background-color: #e298a6d4;
+  border: 5px solid #0008ff;
+  -webkit-box-shadow: 0px 14px 40px grey;
+          box-shadow: 0px 14px 40px grey;
+}
+
+#meals_app .myprop .col-md-4 p {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#meals_app .myprop .col-md-4 img {
+  width: 146px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/*# sourceMappingURL=style.css.map */
